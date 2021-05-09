@@ -1,9 +1,9 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.rtl.min.css";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
-   <h2>Portofolio Glenn Steven</h2>
+   <Navbar/>
   );
 }
 
