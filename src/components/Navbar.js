@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../logo.png";
+import glnlogonya from "../glnlogonya.png";
+
 //Import FontawesomeReact
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +12,7 @@ const Navbar = () => {
             <div className="container">
 
            
-            <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."></img></a>
+            <a className="navbar-brand" href="#"><img className="logo" src={glnlogonya} alt="logo..."></img></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <FontAwesomeIcon icon={faBars} color="#fff"/>
             </button>
